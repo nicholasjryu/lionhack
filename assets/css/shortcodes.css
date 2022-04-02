@@ -2356,13 +2356,15 @@ blockquote .author::before {
 }
 .tf-slider .overlay {
     position: absolute;
-    width: 100%;
+    width: 100vw;
     height: 100%;
     top: 0;
     left: 0;
     background: url('../images/background/bg-slider.png') center center no-repeat;
     z-index: -1;
 }
+
+
 
 .slider .swiper-slide.swiper-slide-active {
     overflow: hidden;
@@ -2674,6 +2676,7 @@ blockquote .author::before {
 
 .slider .style-2 .slider-img .img-right ,
 .slider .slider-img .img-home-1 {
+    
     transform: translateX(400px);
 }
 
